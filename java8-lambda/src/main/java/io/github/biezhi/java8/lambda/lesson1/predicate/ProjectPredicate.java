@@ -1,4 +1,6 @@
-package io.github.biezhi.java8.lambda.lesson1;
+package io.github.biezhi.java8.lambda.lesson1.predicate;
+
+import io.github.biezhi.java8.lambda.lesson1.Project;
 
 /**
  * 项目过滤接口
