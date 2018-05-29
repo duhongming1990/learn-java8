@@ -1,4 +1,4 @@
-package io.github.biezhi.java8.lambda;
+package io.github.biezhi.java8.lambda.lesson3;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,7 +55,7 @@ class Dog {
 	}
 }
 
-public class MethodRefrenceDemo {
+public class MethodRefrence {
 
 	public static void main(String[] args) {
 		Dog dog = new Dog();
