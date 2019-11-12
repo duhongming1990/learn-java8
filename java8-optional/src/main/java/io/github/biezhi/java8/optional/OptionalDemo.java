@@ -73,6 +73,11 @@ public class OptionalDemo {
 //        System.out.println(address1);
 
         System.out.println(getStreet(Optional.of(user), 50));
+
+        Optional<Address> optionalAddress1= Optional.of(new Address());
+        System.out.println(optionalAddress1.isPresent());
+        Optional<Address> optionalAddress2 = Optional.ofNullable(null);
+        System.out.println(optionalAddress2.isPresent());
     }
 
     public static String getStreet(Optional<User> user, int minAge) {

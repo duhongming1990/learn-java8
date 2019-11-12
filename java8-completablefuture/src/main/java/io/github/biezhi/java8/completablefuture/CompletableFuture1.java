@@ -9,6 +9,7 @@ import java.util.concurrent.CompletableFuture;
  * @date 2018/3/25
  */
 public class CompletableFuture1 {
+    private String a;
 
     public static void main(String[] args) {
         CompletableFuture<Void> helloFuture = CompletableFuture.runAsync(() -> System.out.println("hello future"));
